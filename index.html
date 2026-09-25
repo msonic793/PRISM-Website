@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Preference-Optimised Music Mastering under Degradation Chains</title>
+<style>
+  :root { --ink:#1b2466; --muted:#5a6078; --line:#dfe3ef; --bg:#fbfbfe; --accent:#2f6fd6; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:#222; font:17px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { color:var(--ink); font-size: 2rem; line-height:1.25; text-align:center; margin: 0 0 8px; }
+  .authors { text-align:center; color:var(--muted); margin-bottom: 6px; }
+  .venue { text-align:center; color:var(--muted); font-style:italic; margin-bottom: 28px; }
+  h2 { color:var(--ink); font-size:1.35rem; border-bottom:1px solid var(--line); padding-bottom:6px; margin-top:44px; }
+  h3 { color:var(--ink); font-size:1.05rem; margin: 26px 0 8px; }
+  .note { color:var(--muted); font-size:0.92rem; }
+  figure { margin: 20px 0; text-align:center; }
+  figure img { max-width:100%; border:1px solid var(--line); border-radius:6px; background:#fff; }
+  figcaption { color:var(--muted); font-size:0.9rem; margin-top:6px; }
+  .table-wrap { overflow-x:auto; }
+  table { border-collapse: collapse; width:100%; font-size:0.9rem; background:#fff; }
+  th, td { border:1px solid var(--line); padding:8px; text-align:center; vertical-align:middle; }
+  th { background:#eef2fb; color:var(--ink); font-weight:600; }
+  td.label { text-align:left; font-size:0.85rem; color:#333; min-width:150px; }
+  audio { width: 170px; height: 34px; }
+  footer { margin-top:60px; text-align:center; color:var(--muted); font-size:0.85rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Preference-Optimised Music Mastering<br>under Degradation Chains</h1>
+<div class="authors">Anonymous authors</div>
+<div class="venue">Supplementary material for a paper under double-blind review</div>
+
+<h2>Overview</h2>
+<figure>
+  <!-- Put the method figure at figures/overview.png -->
+  <img src="figures/overview.png" alt="Method overview: rectified-flow training and mastering preference optimisation">
+  <figcaption>Rectified-flow training on degradation chains, followed by one offline round of mastering preference optimisation.</figcaption>
+</figure>
+
+<h2>Audio examples</h2>
+<p class="note">All clips are 30&nbsp;s excerpts at 44.1&nbsp;kHz. Outputs are loudness-matched to their input (ITU-R BS.1770) so that differences are not due to level. Headphones are recommended.</p>
+
+<!-- HOW TO ADD EXAMPLES: put audio files in audio/ and copy a <tr> block.
+     Naming used below: audio/<set>_<id>_<system>.wav -->
+
+<h3>1. Synthetic degradation chains (held-out test)</h3>
+<div class="table-wrap">
+<table>
+  <tr><th>Chain</th><th>Degraded input</th><th>SonicMaster</th><th>PRISM (ours)</th><th>Reference master</th></tr>
+  <tr>
+    <td class="label">Phone at a gig<br><span class="note">noise → transducer → AGC → codec → band-limit</span></td>
+    <td><audio controls preload="none" src="audio/chain_01_input.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/chain_01_sonicmaster.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/chain_01_prism.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/chain_01_reference.wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="label">Amateur master<br><span class="note">low-mid build-up → … → over-limiting → clipping</span></td>
+    <td><audio controls preload="none" src="audio/chain_02_input.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/chain_02_sonicmaster.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/chain_02_prism.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/chain_02_reference.wav"></audio></td>
+  </tr>
+</table>
+</div>
+
+<h3>2. Real low-production-quality releases (WILD, no reference)</h3>
+<div class="table-wrap">
+<table>
+  <tr><th>Track</th><th>Input</th><th>SonicMaster</th><th>PRISM w/o MPO</th><th>PRISM (ours)</th></tr>
+  <tr>
+    <td class="label">Example 1<br><span class="note">genre: rock</span></td>
+    <td><audio controls preload="none" src="audio/wild_01_input.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/wild_01_sonicmaster.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/wild_01_prism_nompo.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/wild_01_prism.wav"></audio></td>
+  </tr>
+  <tr>
+    <td class="label">Example 2<br><span class="note">genre: electronic</span></td>
+    <td><audio controls preload="none" src="audio/wild_02_input.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/wild_02_sonicmaster.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/wild_02_prism_nompo.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/wild_02_prism.wav"></audio></td>
+  </tr>
+</table>
+</div>
+
+<h3>3. Already-mastered input (pass-through)</h3>
+<p class="note">The correct behaviour is to leave the audio unchanged.</p>
+<div class="table-wrap">
+<table>
+  <tr><th>Track</th><th>Input (reference master)</th><th>SonicMaster</th><th>PRISM (ours)</th></tr>
+  <tr>
+    <td class="label">Example 1</td>
+    <td><audio controls preload="none" src="audio/pass_01_input.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/pass_01_sonicmaster.wav"></audio></td>
+    <td><audio controls preload="none" src="audio/pass_01_prism.wav"></audio></td>
+  </tr>
+</table>
+</div>
+
+<footer>Anonymous supplementary page. Code and models will be released upon publication.</footer>
+
+</main>
+</body>
+</html>
