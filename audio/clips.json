@@ -533,13 +533,13 @@
     {
      "id": "phone_at_gig01",
      "title": "Clip 1",
-     "instruction": "",
+     "instruction": "Why does everything feel squashed? Improve the width of the soundstage.",
      "families": [
-      "automatic gain control",
-      "band-limiting",
-      "lossy codec",
+      "background noise",
       "transducer coloration",
-      "background noise"
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
      ],
      "tracks": [
       {
@@ -589,13 +589,13 @@
     {
      "id": "phone_at_gig02",
      "title": "Clip 2",
-     "instruction": "",
+     "instruction": "Create a balanced audio image, centering the performance.",
      "families": [
-      "automatic gain control",
-      "band-limiting",
-      "lossy codec",
+      "background noise",
       "transducer coloration",
-      "background noise"
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
      ],
      "tracks": [
       {
@@ -641,6 +641,454 @@
        "ref": true
       }
      ]
+    },
+    {
+     "id": "phone_at_gig03",
+     "title": "Clip 3",
+     "instruction": "Ensure the band\u2019s performance is louder than the crowd.",
+     "families": [
+      "background noise",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig03_input.mp3",
+       "spec": "phone_at_gig03_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig03_prism.mp3",
+       "spec": "phone_at_gig03_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig03_prism_nompo.mp3",
+       "spec": "phone_at_gig03_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig03_sonicmaster.mp3",
+       "spec": "phone_at_gig03_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig03_audiosr.mp3",
+       "spec": "phone_at_gig03_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig03_clean.mp3",
+       "spec": "phone_at_gig03_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "phone_at_gig04",
+     "title": "Clip 4",
+     "instruction": "How about making the audio sound less boxy?",
+     "families": [
+      "background noise",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig04_input.mp3",
+       "spec": "phone_at_gig04_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig04_prism.mp3",
+       "spec": "phone_at_gig04_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig04_prism_nompo.mp3",
+       "spec": "phone_at_gig04_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig04_sonicmaster.mp3",
+       "spec": "phone_at_gig04_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig04_audiosr.mp3",
+       "spec": "phone_at_gig04_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig04_clean.mp3",
+       "spec": "phone_at_gig04_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "phone_at_gig05",
+     "title": "Clip 5",
+     "instruction": "Knock down that boxy sound for a cleaner output.",
+     "families": [
+      "background noise",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig05_input.mp3",
+       "spec": "phone_at_gig05_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig05_prism.mp3",
+       "spec": "phone_at_gig05_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig05_prism_nompo.mp3",
+       "spec": "phone_at_gig05_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig05_sonicmaster.mp3",
+       "spec": "phone_at_gig05_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig05_audiosr.mp3",
+       "spec": "phone_at_gig05_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig05_clean.mp3",
+       "spec": "phone_at_gig05_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "phone_at_gig06",
+     "title": "Clip 6",
+     "instruction": "Balance out the uneven volume spikes throughout the recording.",
+     "families": [
+      "background noise",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig06_input.mp3",
+       "spec": "phone_at_gig06_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig06_prism.mp3",
+       "spec": "phone_at_gig06_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig06_prism_nompo.mp3",
+       "spec": "phone_at_gig06_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig06_sonicmaster.mp3",
+       "spec": "phone_at_gig06_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig06_audiosr.mp3",
+       "spec": "phone_at_gig06_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig06_clean.mp3",
+       "spec": "phone_at_gig06_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "phone_at_gig07",
+     "title": "Clip 7",
+     "instruction": "Could you bring out more detail in the background instruments?",
+     "families": [
+      "background noise",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig07_input.mp3",
+       "spec": "phone_at_gig07_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig07_prism.mp3",
+       "spec": "phone_at_gig07_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig07_prism_nompo.mp3",
+       "spec": "phone_at_gig07_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig07_sonicmaster.mp3",
+       "spec": "phone_at_gig07_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig07_audiosr.mp3",
+       "spec": "phone_at_gig07_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig07_clean.mp3",
+       "spec": "phone_at_gig07_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "phone_at_gig08",
+     "title": "Clip 8",
+     "instruction": "Polish up the lead singer\u2019s voice to be crisp and clear.",
+     "families": [
+      "background noise",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig08_input.mp3",
+       "spec": "phone_at_gig08_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig08_prism.mp3",
+       "spec": "phone_at_gig08_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig08_prism_nompo.mp3",
+       "spec": "phone_at_gig08_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig08_sonicmaster.mp3",
+       "spec": "phone_at_gig08_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig08_audiosr.mp3",
+       "spec": "phone_at_gig08_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig08_clean.mp3",
+       "spec": "phone_at_gig08_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "phone_at_gig09",
+     "title": "Clip 9",
+     "instruction": "Knock down that boxy sound for a cleaner output.",
+     "families": [
+      "background noise",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig09_input.mp3",
+       "spec": "phone_at_gig09_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig09_prism.mp3",
+       "spec": "phone_at_gig09_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig09_prism_nompo.mp3",
+       "spec": "phone_at_gig09_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig09_sonicmaster.mp3",
+       "spec": "phone_at_gig09_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig09_audiosr.mp3",
+       "spec": "phone_at_gig09_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig09_clean.mp3",
+       "spec": "phone_at_gig09_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "phone_at_gig10",
+     "title": "Clip 10",
+     "instruction": "Work to clarify reverberant effects that blur details.",
+     "families": [
+      "background noise",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig10_input.mp3",
+       "spec": "phone_at_gig10_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig10_prism.mp3",
+       "spec": "phone_at_gig10_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig10_prism_nompo.mp3",
+       "spec": "phone_at_gig10_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig10_sonicmaster.mp3",
+       "spec": "phone_at_gig10_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig10_audiosr.mp3",
+       "spec": "phone_at_gig10_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig10_clean.mp3",
+       "spec": "phone_at_gig10_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
     }
    ]
   },
@@ -652,13 +1100,13 @@
     {
      "id": "laptop_room01",
      "title": "Clip 1",
-     "instruction": "",
+     "instruction": "Emphasize vocal clarity by reducing diffuse noise.",
      "families": [
-      "automatic gain control",
-      "band-limiting",
-      "lossy codec",
+      "room reverberation",
       "transducer coloration",
-      "room reverberation"
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
      ],
      "tracks": [
       {
@@ -708,13 +1156,13 @@
     {
      "id": "laptop_room02",
      "title": "Clip 2",
-     "instruction": "",
+     "instruction": "Reduce the echo to focus on the main audio.",
      "families": [
-      "automatic gain control",
-      "band-limiting",
-      "lossy codec",
+      "room reverberation",
       "transducer coloration",
-      "room reverberation"
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
      ],
      "tracks": [
       {
@@ -760,6 +1208,454 @@
        "ref": true
       }
      ]
+    },
+    {
+     "id": "laptop_room03",
+     "title": "Clip 3",
+     "instruction": "Can you clarify the dulled top frequencies?",
+     "families": [
+      "room reverberation",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room03_input.mp3",
+       "spec": "laptop_room03_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room03_prism.mp3",
+       "spec": "laptop_room03_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room03_prism_nompo.mp3",
+       "spec": "laptop_room03_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room03_sonicmaster.mp3",
+       "spec": "laptop_room03_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room03_audiosr.mp3",
+       "spec": "laptop_room03_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room03_clean.mp3",
+       "spec": "laptop_room03_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "laptop_room04",
+     "title": "Clip 4",
+     "instruction": "Shift focus from the room to the speech.",
+     "families": [
+      "room reverberation",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room04_input.mp3",
+       "spec": "laptop_room04_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room04_prism.mp3",
+       "spec": "laptop_room04_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room04_prism_nompo.mp3",
+       "spec": "laptop_room04_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room04_sonicmaster.mp3",
+       "spec": "laptop_room04_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room04_audiosr.mp3",
+       "spec": "laptop_room04_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room04_clean.mp3",
+       "spec": "laptop_room04_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "laptop_room05",
+     "title": "Clip 5",
+     "instruction": "The background noise is distracting; quiet it down.",
+     "families": [
+      "room reverberation",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room05_input.mp3",
+       "spec": "laptop_room05_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room05_prism.mp3",
+       "spec": "laptop_room05_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room05_prism_nompo.mp3",
+       "spec": "laptop_room05_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room05_sonicmaster.mp3",
+       "spec": "laptop_room05_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room05_audiosr.mp3",
+       "spec": "laptop_room05_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room05_clean.mp3",
+       "spec": "laptop_room05_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "laptop_room06",
+     "title": "Clip 6",
+     "instruction": "Why does everything sound so thin? Enhance it.",
+     "families": [
+      "room reverberation",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room06_input.mp3",
+       "spec": "laptop_room06_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room06_prism.mp3",
+       "spec": "laptop_room06_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room06_prism_nompo.mp3",
+       "spec": "laptop_room06_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room06_sonicmaster.mp3",
+       "spec": "laptop_room06_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room06_audiosr.mp3",
+       "spec": "laptop_room06_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room06_clean.mp3",
+       "spec": "laptop_room06_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "laptop_room07",
+     "title": "Clip 7",
+     "instruction": "Focus on softening the harshness of the room echoes.",
+     "families": [
+      "room reverberation",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room07_input.mp3",
+       "spec": "laptop_room07_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room07_prism.mp3",
+       "spec": "laptop_room07_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room07_prism_nompo.mp3",
+       "spec": "laptop_room07_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room07_sonicmaster.mp3",
+       "spec": "laptop_room07_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room07_audiosr.mp3",
+       "spec": "laptop_room07_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room07_clean.mp3",
+       "spec": "laptop_room07_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "laptop_room08",
+     "title": "Clip 8",
+     "instruction": "Deepen the low frequencies for a warmer sound.",
+     "families": [
+      "room reverberation",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room08_input.mp3",
+       "spec": "laptop_room08_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room08_prism.mp3",
+       "spec": "laptop_room08_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room08_prism_nompo.mp3",
+       "spec": "laptop_room08_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room08_sonicmaster.mp3",
+       "spec": "laptop_room08_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room08_audiosr.mp3",
+       "spec": "laptop_room08_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room08_clean.mp3",
+       "spec": "laptop_room08_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "laptop_room09",
+     "title": "Clip 9",
+     "instruction": "Add warmth to the thin audio.",
+     "families": [
+      "room reverberation",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room09_input.mp3",
+       "spec": "laptop_room09_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room09_prism.mp3",
+       "spec": "laptop_room09_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room09_prism_nompo.mp3",
+       "spec": "laptop_room09_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room09_sonicmaster.mp3",
+       "spec": "laptop_room09_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room09_audiosr.mp3",
+       "spec": "laptop_room09_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room09_clean.mp3",
+       "spec": "laptop_room09_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "laptop_room10",
+     "title": "Clip 10",
+     "instruction": "Level out the inconsistent audio for steady playback.",
+     "families": [
+      "room reverberation",
+      "transducer coloration",
+      "automatic gain control",
+      "lossy codec",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room10_input.mp3",
+       "spec": "laptop_room10_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room10_prism.mp3",
+       "spec": "laptop_room10_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room10_prism_nompo.mp3",
+       "spec": "laptop_room10_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room10_sonicmaster.mp3",
+       "spec": "laptop_room10_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room10_audiosr.mp3",
+       "spec": "laptop_room10_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room10_clean.mp3",
+       "spec": "laptop_room10_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
     }
    ]
   },
@@ -771,14 +1667,14 @@
     {
      "id": "call_capture01",
      "title": "Clip 1",
-     "instruction": "",
+     "instruction": "Suppress the underlying electrical hum effectively.",
      "families": [
-      "automatic gain control",
       "band-limiting",
-      "lossy codec",
       "transducer coloration",
-      "dropouts",
-      "mains hum"
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
      ],
      "tracks": [
       {
@@ -828,14 +1724,14 @@
     {
      "id": "call_capture02",
      "title": "Clip 2",
-     "instruction": "",
+     "instruction": "Please fill the audio dropouts smoothly.",
      "families": [
-      "automatic gain control",
       "band-limiting",
-      "lossy codec",
       "transducer coloration",
-      "dropouts",
-      "mains hum"
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
      ],
      "tracks": [
       {
@@ -881,6 +1777,462 @@
        "ref": true
       }
      ]
+    },
+    {
+     "id": "call_capture03",
+     "title": "Clip 3",
+     "instruction": "Turn the call's narrowness into a fuller sound.",
+     "families": [
+      "band-limiting",
+      "transducer coloration",
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture03_input.mp3",
+       "spec": "call_capture03_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture03_prism.mp3",
+       "spec": "call_capture03_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture03_prism_nompo.mp3",
+       "spec": "call_capture03_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture03_sonicmaster.mp3",
+       "spec": "call_capture03_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture03_audiosr.mp3",
+       "spec": "call_capture03_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture03_clean.mp3",
+       "spec": "call_capture03_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "call_capture04",
+     "title": "Clip 4",
+     "instruction": "Balance the audio for a stable listening experience.",
+     "families": [
+      "band-limiting",
+      "transducer coloration",
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture04_input.mp3",
+       "spec": "call_capture04_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture04_prism.mp3",
+       "spec": "call_capture04_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture04_prism_nompo.mp3",
+       "spec": "call_capture04_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture04_sonicmaster.mp3",
+       "spec": "call_capture04_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture04_audiosr.mp3",
+       "spec": "call_capture04_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture04_clean.mp3",
+       "spec": "call_capture04_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "call_capture05",
+     "title": "Clip 5",
+     "instruction": "Improve tonal quality without distortion.",
+     "families": [
+      "band-limiting",
+      "transducer coloration",
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture05_input.mp3",
+       "spec": "call_capture05_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture05_prism.mp3",
+       "spec": "call_capture05_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture05_prism_nompo.mp3",
+       "spec": "call_capture05_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture05_sonicmaster.mp3",
+       "spec": "call_capture05_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture05_audiosr.mp3",
+       "spec": "call_capture05_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture05_clean.mp3",
+       "spec": "call_capture05_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "call_capture06",
+     "title": "Clip 6",
+     "instruction": "Can you neutralize the narrow frequency response?",
+     "families": [
+      "band-limiting",
+      "transducer coloration",
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture06_input.mp3",
+       "spec": "call_capture06_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture06_prism.mp3",
+       "spec": "call_capture06_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture06_prism_nompo.mp3",
+       "spec": "call_capture06_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture06_sonicmaster.mp3",
+       "spec": "call_capture06_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture06_audiosr.mp3",
+       "spec": "call_capture06_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture06_clean.mp3",
+       "spec": "call_capture06_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "call_capture07",
+     "title": "Clip 7",
+     "instruction": "Please fill the audio dropouts smoothly.",
+     "families": [
+      "band-limiting",
+      "transducer coloration",
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture07_input.mp3",
+       "spec": "call_capture07_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture07_prism.mp3",
+       "spec": "call_capture07_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture07_prism_nompo.mp3",
+       "spec": "call_capture07_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture07_sonicmaster.mp3",
+       "spec": "call_capture07_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture07_audiosr.mp3",
+       "spec": "call_capture07_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture07_clean.mp3",
+       "spec": "call_capture07_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "call_capture08",
+     "title": "Clip 8",
+     "instruction": "Unify the sound to lessen the telephone-line characteristics.",
+     "families": [
+      "band-limiting",
+      "transducer coloration",
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture08_input.mp3",
+       "spec": "call_capture08_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture08_prism.mp3",
+       "spec": "call_capture08_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture08_prism_nompo.mp3",
+       "spec": "call_capture08_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture08_sonicmaster.mp3",
+       "spec": "call_capture08_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture08_audiosr.mp3",
+       "spec": "call_capture08_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture08_clean.mp3",
+       "spec": "call_capture08_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "call_capture09",
+     "title": "Clip 9",
+     "instruction": "Define the voice more clearly despite the drops.",
+     "families": [
+      "band-limiting",
+      "transducer coloration",
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture09_input.mp3",
+       "spec": "call_capture09_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture09_prism.mp3",
+       "spec": "call_capture09_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture09_prism_nompo.mp3",
+       "spec": "call_capture09_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture09_sonicmaster.mp3",
+       "spec": "call_capture09_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture09_audiosr.mp3",
+       "spec": "call_capture09_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture09_clean.mp3",
+       "spec": "call_capture09_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "call_capture10",
+     "title": "Clip 10",
+     "instruction": "Reduce the distracting buzzing background noise.",
+     "families": [
+      "band-limiting",
+      "transducer coloration",
+      "automatic gain control",
+      "mains hum",
+      "lossy codec",
+      "dropouts"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture10_input.mp3",
+       "spec": "call_capture10_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture10_prism.mp3",
+       "spec": "call_capture10_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture10_prism_nompo.mp3",
+       "spec": "call_capture10_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture10_sonicmaster.mp3",
+       "spec": "call_capture10_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture10_audiosr.mp3",
+       "spec": "call_capture10_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture10_clean.mp3",
+       "spec": "call_capture10_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
     }
    ]
   },
@@ -892,12 +2244,12 @@
     {
      "id": "cassette_transfer01",
      "title": "Clip 1",
-     "instruction": "",
+     "instruction": "Constant pitch wobbling spoils this; can you fix it?",
      "families": [
-      "band-limiting",
-      "mains hum",
+      "wow & flutter",
       "background noise",
-      "wow & flutter"
+      "band-limiting",
+      "mains hum"
      ],
      "tracks": [
       {
@@ -947,12 +2299,12 @@
     {
      "id": "cassette_transfer02",
      "title": "Clip 2",
-     "instruction": "",
+     "instruction": "Pitch instability detracts from quality; correct this issue.",
      "families": [
-      "band-limiting",
-      "mains hum",
+      "wow & flutter",
       "background noise",
-      "wow & flutter"
+      "band-limiting",
+      "mains hum"
      ],
      "tracks": [
       {
@@ -998,6 +2350,446 @@
        "ref": true
       }
      ]
+    },
+    {
+     "id": "cassette_transfer03",
+     "title": "Clip 3",
+     "instruction": "Diminish the constant electric drone beneath the music.",
+     "families": [
+      "wow & flutter",
+      "background noise",
+      "band-limiting",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer03_input.mp3",
+       "spec": "cassette_transfer03_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer03_prism.mp3",
+       "spec": "cassette_transfer03_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer03_prism_nompo.mp3",
+       "spec": "cassette_transfer03_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer03_sonicmaster.mp3",
+       "spec": "cassette_transfer03_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer03_audiosr.mp3",
+       "spec": "cassette_transfer03_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer03_clean.mp3",
+       "spec": "cassette_transfer03_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "cassette_transfer04",
+     "title": "Clip 4",
+     "instruction": "I can't stand the warbling notes; please stabilize them.",
+     "families": [
+      "wow & flutter",
+      "background noise",
+      "band-limiting",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer04_input.mp3",
+       "spec": "cassette_transfer04_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer04_prism.mp3",
+       "spec": "cassette_transfer04_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer04_prism_nompo.mp3",
+       "spec": "cassette_transfer04_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer04_sonicmaster.mp3",
+       "spec": "cassette_transfer04_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer04_audiosr.mp3",
+       "spec": "cassette_transfer04_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer04_clean.mp3",
+       "spec": "cassette_transfer04_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "cassette_transfer05",
+     "title": "Clip 5",
+     "instruction": "Ensure pitch is stable from start to finish.",
+     "families": [
+      "wow & flutter",
+      "background noise",
+      "band-limiting",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer05_input.mp3",
+       "spec": "cassette_transfer05_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer05_prism.mp3",
+       "spec": "cassette_transfer05_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer05_prism_nompo.mp3",
+       "spec": "cassette_transfer05_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer05_sonicmaster.mp3",
+       "spec": "cassette_transfer05_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer05_audiosr.mp3",
+       "spec": "cassette_transfer05_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer05_clean.mp3",
+       "spec": "cassette_transfer05_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "cassette_transfer06",
+     "title": "Clip 6",
+     "instruction": "Recover the sheen that vanished due to high-frequency loss.",
+     "families": [
+      "wow & flutter",
+      "background noise",
+      "band-limiting",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer06_input.mp3",
+       "spec": "cassette_transfer06_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer06_prism.mp3",
+       "spec": "cassette_transfer06_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer06_prism_nompo.mp3",
+       "spec": "cassette_transfer06_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer06_sonicmaster.mp3",
+       "spec": "cassette_transfer06_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer06_audiosr.mp3",
+       "spec": "cassette_transfer06_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer06_clean.mp3",
+       "spec": "cassette_transfer06_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "cassette_transfer07",
+     "title": "Clip 7",
+     "instruction": "Can the hiss be softened for a smoother listening experience?",
+     "families": [
+      "wow & flutter",
+      "background noise",
+      "band-limiting",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer07_input.mp3",
+       "spec": "cassette_transfer07_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer07_prism.mp3",
+       "spec": "cassette_transfer07_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer07_prism_nompo.mp3",
+       "spec": "cassette_transfer07_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer07_sonicmaster.mp3",
+       "spec": "cassette_transfer07_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer07_audiosr.mp3",
+       "spec": "cassette_transfer07_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer07_clean.mp3",
+       "spec": "cassette_transfer07_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "cassette_transfer08",
+     "title": "Clip 8",
+     "instruction": "Restore the missing highs for a livelier sound.",
+     "families": [
+      "wow & flutter",
+      "background noise",
+      "band-limiting",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer08_input.mp3",
+       "spec": "cassette_transfer08_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer08_prism.mp3",
+       "spec": "cassette_transfer08_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer08_prism_nompo.mp3",
+       "spec": "cassette_transfer08_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer08_sonicmaster.mp3",
+       "spec": "cassette_transfer08_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer08_audiosr.mp3",
+       "spec": "cassette_transfer08_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer08_clean.mp3",
+       "spec": "cassette_transfer08_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "cassette_transfer09",
+     "title": "Clip 9",
+     "instruction": "Restore the missing highs for a livelier sound.",
+     "families": [
+      "wow & flutter",
+      "background noise",
+      "band-limiting",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer09_input.mp3",
+       "spec": "cassette_transfer09_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer09_prism.mp3",
+       "spec": "cassette_transfer09_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer09_prism_nompo.mp3",
+       "spec": "cassette_transfer09_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer09_sonicmaster.mp3",
+       "spec": "cassette_transfer09_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer09_audiosr.mp3",
+       "spec": "cassette_transfer09_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer09_clean.mp3",
+       "spec": "cassette_transfer09_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "cassette_transfer10",
+     "title": "Clip 10",
+     "instruction": "Nivel the pitch shifts to maintain a stable tone.",
+     "families": [
+      "wow & flutter",
+      "background noise",
+      "band-limiting",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer10_input.mp3",
+       "spec": "cassette_transfer10_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer10_prism.mp3",
+       "spec": "cassette_transfer10_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer10_prism_nompo.mp3",
+       "spec": "cassette_transfer10_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer10_sonicmaster.mp3",
+       "spec": "cassette_transfer10_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer10_audiosr.mp3",
+       "spec": "cassette_transfer10_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer10_clean.mp3",
+       "spec": "cassette_transfer10_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
     }
    ]
   },
@@ -1009,13 +2801,13 @@
     {
      "id": "internet_rip01",
      "title": "Clip 1",
-     "instruction": "",
+     "instruction": "Dial back the overwhelming harshness in the track.",
      "families": [
-      "band-limiting",
-      "clipping",
       "lossy codec",
+      "band-limiting",
+      "over-compression",
       "over-limiting",
-      "over-compression"
+      "clipping"
      ],
      "tracks": [
       {
@@ -1065,13 +2857,13 @@
     {
      "id": "internet_rip02",
      "title": "Clip 2",
-     "instruction": "",
+     "instruction": "Save this track from sounding relentlessly loud.",
      "families": [
-      "band-limiting",
-      "clipping",
       "lossy codec",
+      "band-limiting",
+      "over-compression",
       "over-limiting",
-      "over-compression"
+      "clipping"
      ],
      "tracks": [
       {
@@ -1117,6 +2909,454 @@
        "ref": true
       }
      ]
+    },
+    {
+     "id": "internet_rip03",
+     "title": "Clip 3",
+     "instruction": "Address the blaring compression artifacts throughout.",
+     "families": [
+      "lossy codec",
+      "band-limiting",
+      "over-compression",
+      "over-limiting",
+      "clipping"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip03_input.mp3",
+       "spec": "internet_rip03_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip03_prism.mp3",
+       "spec": "internet_rip03_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip03_prism_nompo.mp3",
+       "spec": "internet_rip03_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip03_sonicmaster.mp3",
+       "spec": "internet_rip03_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip03_audiosr.mp3",
+       "spec": "internet_rip03_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip03_clean.mp3",
+       "spec": "internet_rip03_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "internet_rip04",
+     "title": "Clip 4",
+     "instruction": "Remove the crackly edges from the sound.",
+     "families": [
+      "lossy codec",
+      "band-limiting",
+      "over-compression",
+      "over-limiting",
+      "clipping"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip04_input.mp3",
+       "spec": "internet_rip04_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip04_prism.mp3",
+       "spec": "internet_rip04_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip04_prism_nompo.mp3",
+       "spec": "internet_rip04_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip04_sonicmaster.mp3",
+       "spec": "internet_rip04_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip04_audiosr.mp3",
+       "spec": "internet_rip04_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip04_clean.mp3",
+       "spec": "internet_rip04_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "internet_rip05",
+     "title": "Clip 5",
+     "instruction": "Redefine the voice brightness without the glassiness.",
+     "families": [
+      "lossy codec",
+      "band-limiting",
+      "over-compression",
+      "over-limiting",
+      "clipping"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip05_input.mp3",
+       "spec": "internet_rip05_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip05_prism.mp3",
+       "spec": "internet_rip05_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip05_prism_nompo.mp3",
+       "spec": "internet_rip05_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip05_sonicmaster.mp3",
+       "spec": "internet_rip05_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip05_audiosr.mp3",
+       "spec": "internet_rip05_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip05_clean.mp3",
+       "spec": "internet_rip05_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "internet_rip06",
+     "title": "Clip 6",
+     "instruction": "Make the cymbals sound crisp and clear.",
+     "families": [
+      "lossy codec",
+      "band-limiting",
+      "over-compression",
+      "over-limiting",
+      "clipping"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip06_input.mp3",
+       "spec": "internet_rip06_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip06_prism.mp3",
+       "spec": "internet_rip06_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip06_prism_nompo.mp3",
+       "spec": "internet_rip06_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip06_sonicmaster.mp3",
+       "spec": "internet_rip06_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip06_audiosr.mp3",
+       "spec": "internet_rip06_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip06_clean.mp3",
+       "spec": "internet_rip06_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "internet_rip07",
+     "title": "Clip 7",
+     "instruction": "Bring some sparkle back to the cymbals.",
+     "families": [
+      "lossy codec",
+      "band-limiting",
+      "over-compression",
+      "over-limiting",
+      "clipping"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip07_input.mp3",
+       "spec": "internet_rip07_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip07_prism.mp3",
+       "spec": "internet_rip07_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip07_prism_nompo.mp3",
+       "spec": "internet_rip07_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip07_sonicmaster.mp3",
+       "spec": "internet_rip07_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip07_audiosr.mp3",
+       "spec": "internet_rip07_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip07_clean.mp3",
+       "spec": "internet_rip07_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "internet_rip08",
+     "title": "Clip 8",
+     "instruction": "Fill in the missing natural high frequencies.",
+     "families": [
+      "lossy codec",
+      "band-limiting",
+      "over-compression",
+      "over-limiting",
+      "clipping"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip08_input.mp3",
+       "spec": "internet_rip08_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip08_prism.mp3",
+       "spec": "internet_rip08_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip08_prism_nompo.mp3",
+       "spec": "internet_rip08_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip08_sonicmaster.mp3",
+       "spec": "internet_rip08_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip08_audiosr.mp3",
+       "spec": "internet_rip08_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip08_clean.mp3",
+       "spec": "internet_rip08_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "internet_rip09",
+     "title": "Clip 9",
+     "instruction": "Make the recording's top end less abrasive.",
+     "families": [
+      "lossy codec",
+      "band-limiting",
+      "over-compression",
+      "over-limiting",
+      "clipping"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip09_input.mp3",
+       "spec": "internet_rip09_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip09_prism.mp3",
+       "spec": "internet_rip09_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip09_prism_nompo.mp3",
+       "spec": "internet_rip09_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip09_sonicmaster.mp3",
+       "spec": "internet_rip09_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip09_audiosr.mp3",
+       "spec": "internet_rip09_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip09_clean.mp3",
+       "spec": "internet_rip09_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "internet_rip10",
+     "title": "Clip 10",
+     "instruction": "The peaks should be smooth, not squared.",
+     "families": [
+      "lossy codec",
+      "band-limiting",
+      "over-compression",
+      "over-limiting",
+      "clipping"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip10_input.mp3",
+       "spec": "internet_rip10_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip10_prism.mp3",
+       "spec": "internet_rip10_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip10_prism_nompo.mp3",
+       "spec": "internet_rip10_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip10_sonicmaster.mp3",
+       "spec": "internet_rip10_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip10_audiosr.mp3",
+       "spec": "internet_rip10_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip10_clean.mp3",
+       "spec": "internet_rip10_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
     }
    ]
   },
@@ -1128,15 +3368,15 @@
     {
      "id": "amateur_master01",
      "title": "Clip 1",
-     "instruction": "",
+     "instruction": "Seek additional brightness without harshness.",
      "families": [
+      "low-mid build-up",
       "loss of air",
       "dull top end",
-      "clipping",
-      "over-limiting",
-      "low-mid build-up",
-      "over-compression",
       "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
       "stereo-width error"
      ],
      "tracks": [
@@ -1187,15 +3427,15 @@
     {
      "id": "amateur_master02",
      "title": "Clip 2",
-     "instruction": "",
+     "instruction": "Can you create a more open stereo panorama?",
      "families": [
+      "low-mid build-up",
       "loss of air",
       "dull top end",
-      "clipping",
-      "over-limiting",
-      "low-mid build-up",
-      "over-compression",
       "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
       "stereo-width error"
      ],
      "tracks": [
@@ -1242,6 +3482,478 @@
        "ref": true
       }
      ]
+    },
+    {
+     "id": "amateur_master03",
+     "title": "Clip 3",
+     "instruction": "Restore dynamics for a more engaging listen.",
+     "families": [
+      "low-mid build-up",
+      "loss of air",
+      "dull top end",
+      "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master03_input.mp3",
+       "spec": "amateur_master03_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master03_prism.mp3",
+       "spec": "amateur_master03_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master03_prism_nompo.mp3",
+       "spec": "amateur_master03_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master03_sonicmaster.mp3",
+       "spec": "amateur_master03_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master03_audiosr.mp3",
+       "spec": "amateur_master03_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master03_clean.mp3",
+       "spec": "amateur_master03_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "amateur_master04",
+     "title": "Clip 4",
+     "instruction": "Polish the top end for a more airy sound.",
+     "families": [
+      "low-mid build-up",
+      "loss of air",
+      "dull top end",
+      "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master04_input.mp3",
+       "spec": "amateur_master04_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master04_prism.mp3",
+       "spec": "amateur_master04_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master04_prism_nompo.mp3",
+       "spec": "amateur_master04_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master04_sonicmaster.mp3",
+       "spec": "amateur_master04_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master04_audiosr.mp3",
+       "spec": "amateur_master04_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master04_clean.mp3",
+       "spec": "amateur_master04_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "amateur_master05",
+     "title": "Clip 5",
+     "instruction": "Can we bring the drums forward in the mix?",
+     "families": [
+      "low-mid build-up",
+      "loss of air",
+      "dull top end",
+      "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master05_input.mp3",
+       "spec": "amateur_master05_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master05_prism.mp3",
+       "spec": "amateur_master05_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master05_prism_nompo.mp3",
+       "spec": "amateur_master05_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master05_sonicmaster.mp3",
+       "spec": "amateur_master05_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master05_audiosr.mp3",
+       "spec": "amateur_master05_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master05_clean.mp3",
+       "spec": "amateur_master05_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "amateur_master06",
+     "title": "Clip 6",
+     "instruction": "Find ways to make the drums feel more prominent.",
+     "families": [
+      "low-mid build-up",
+      "loss of air",
+      "dull top end",
+      "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master06_input.mp3",
+       "spec": "amateur_master06_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master06_prism.mp3",
+       "spec": "amateur_master06_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master06_prism_nompo.mp3",
+       "spec": "amateur_master06_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master06_sonicmaster.mp3",
+       "spec": "amateur_master06_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master06_audiosr.mp3",
+       "spec": "amateur_master06_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master06_clean.mp3",
+       "spec": "amateur_master06_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "amateur_master07",
+     "title": "Clip 7",
+     "instruction": "Impart clarity and separation to the mix.",
+     "families": [
+      "low-mid build-up",
+      "loss of air",
+      "dull top end",
+      "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master07_input.mp3",
+       "spec": "amateur_master07_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master07_prism.mp3",
+       "spec": "amateur_master07_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master07_prism_nompo.mp3",
+       "spec": "amateur_master07_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master07_sonicmaster.mp3",
+       "spec": "amateur_master07_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master07_audiosr.mp3",
+       "spec": "amateur_master07_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master07_clean.mp3",
+       "spec": "amateur_master07_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "amateur_master08",
+     "title": "Clip 8",
+     "instruction": "Tone down muddiness in the low-mid area.",
+     "families": [
+      "low-mid build-up",
+      "loss of air",
+      "dull top end",
+      "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master08_input.mp3",
+       "spec": "amateur_master08_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master08_prism.mp3",
+       "spec": "amateur_master08_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master08_prism_nompo.mp3",
+       "spec": "amateur_master08_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master08_sonicmaster.mp3",
+       "spec": "amateur_master08_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master08_audiosr.mp3",
+       "spec": "amateur_master08_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master08_clean.mp3",
+       "spec": "amateur_master08_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "amateur_master09",
+     "title": "Clip 9",
+     "instruction": "Let the music breathe by opening the dynamics.",
+     "families": [
+      "low-mid build-up",
+      "loss of air",
+      "dull top end",
+      "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master09_input.mp3",
+       "spec": "amateur_master09_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master09_prism.mp3",
+       "spec": "amateur_master09_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master09_prism_nompo.mp3",
+       "spec": "amateur_master09_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master09_sonicmaster.mp3",
+       "spec": "amateur_master09_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master09_audiosr.mp3",
+       "spec": "amateur_master09_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master09_clean.mp3",
+       "spec": "amateur_master09_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "amateur_master10",
+     "title": "Clip 10",
+     "instruction": "The mix is too narrow and needs widening.",
+     "families": [
+      "low-mid build-up",
+      "loss of air",
+      "dull top end",
+      "transient softening",
+      "over-compression",
+      "over-limiting",
+      "clipping",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master10_input.mp3",
+       "spec": "amateur_master10_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master10_prism.mp3",
+       "spec": "amateur_master10_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master10_prism_nompo.mp3",
+       "spec": "amateur_master10_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master10_sonicmaster.mp3",
+       "spec": "amateur_master10_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master10_audiosr.mp3",
+       "spec": "amateur_master10_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master10_clean.mp3",
+       "spec": "amateur_master10_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
     }
    ]
   },
@@ -1253,9 +3965,12 @@
     {
      "id": "random01",
      "title": "Clip 1",
-     "instruction": "",
+     "instruction": "Revive the high-end sheen.",
      "families": [
-      "over-compression"
+      "upper-range roll-off",
+      "peaking-EQ imbalance",
+      "dull top end",
+      "dropouts"
      ],
      "tracks": [
       {
@@ -1305,13 +4020,13 @@
     {
      "id": "random02",
      "title": "Clip 2",
-     "instruction": "",
+     "instruction": "This sounds patchy; adjust it for a cohesive result. I miss the shimmer above the cymbals, can you bring it back?",
      "families": [
-      "upper-range roll-off",
-      "mains hum",
-      "over-limiting",
-      "stereo-width error",
-      "recessed vocal"
+      "recessed vocal",
+      "loss of air",
+      "peaking-EQ imbalance",
+      "background noise",
+      "transducer coloration"
      ],
      "tracks": [
       {
@@ -1357,6 +4072,442 @@
        "ref": true
       }
      ]
+    },
+    {
+     "id": "random03",
+     "title": "Clip 3",
+     "instruction": "Make the loud and soft sections more noticeable again.",
+     "families": [
+      "over-compression",
+      "peaking-EQ imbalance",
+      "over-limiting",
+      "upper-range roll-off",
+      "loss of air"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random03_input.mp3",
+       "spec": "random03_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random03_prism.mp3",
+       "spec": "random03_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random03_prism_nompo.mp3",
+       "spec": "random03_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random03_sonicmaster.mp3",
+       "spec": "random03_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random03_audiosr.mp3",
+       "spec": "random03_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random03_clean.mp3",
+       "spec": "random03_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "random04",
+     "title": "Clip 4",
+     "instruction": "Reduce the overwhelming presence of bass frequencies. Reduce the severe harshness in the louder sections.",
+     "families": [
+      "peaking-EQ imbalance",
+      "clipping",
+      "transducer coloration"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random04_input.mp3",
+       "spec": "random04_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random04_prism.mp3",
+       "spec": "random04_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random04_prism_nompo.mp3",
+       "spec": "random04_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random04_sonicmaster.mp3",
+       "spec": "random04_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random04_audiosr.mp3",
+       "spec": "random04_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random04_clean.mp3",
+       "spec": "random04_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "random05",
+     "title": "Clip 5",
+     "instruction": "Reduce that distant sound quality, please. Ensure natural dynamics are present throughout this piece.",
+     "families": [
+      "over-limiting",
+      "upper-range roll-off",
+      "transducer coloration",
+      "room reverberation"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random05_input.mp3",
+       "spec": "random05_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random05_prism.mp3",
+       "spec": "random05_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random05_prism_nompo.mp3",
+       "spec": "random05_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random05_sonicmaster.mp3",
+       "spec": "random05_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random05_audiosr.mp3",
+       "spec": "random05_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random05_clean.mp3",
+       "spec": "random05_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "random06",
+     "title": "Clip 6",
+     "instruction": "Need more vocal clarity against the musical swells.",
+     "families": [
+      "recessed vocal",
+      "upper-range roll-off",
+      "band-limiting"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random06_input.mp3",
+       "spec": "random06_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random06_prism.mp3",
+       "spec": "random06_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random06_prism_nompo.mp3",
+       "spec": "random06_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random06_sonicmaster.mp3",
+       "spec": "random06_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random06_audiosr.mp3",
+       "spec": "random06_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random06_clean.mp3",
+       "spec": "random06_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "random07",
+     "title": "Clip 7",
+     "instruction": "Eliminate the flat sound by reviving original dynamics.",
+     "families": [
+      "over-compression"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random07_input.mp3",
+       "spec": "random07_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random07_prism.mp3",
+       "spec": "random07_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random07_prism_nompo.mp3",
+       "spec": "random07_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random07_sonicmaster.mp3",
+       "spec": "random07_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random07_audiosr.mp3",
+       "spec": "random07_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random07_clean.mp3",
+       "spec": "random07_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "random08",
+     "title": "Clip 8",
+     "instruction": "Hum-free audio, please tackle the noise issue.",
+     "families": [
+      "excess brightness",
+      "mains hum",
+      "background noise"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random08_input.mp3",
+       "spec": "random08_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random08_prism.mp3",
+       "spec": "random08_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random08_prism_nompo.mp3",
+       "spec": "random08_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random08_sonicmaster.mp3",
+       "spec": "random08_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random08_audiosr.mp3",
+       "spec": "random08_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random08_clean.mp3",
+       "spec": "random08_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "random09",
+     "title": "Clip 9",
+     "instruction": "The signal is too fuzzy, rectify that.",
+     "families": [
+      "stereo-width error",
+      "saturation",
+      "automatic gain control",
+      "transducer coloration"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random09_input.mp3",
+       "spec": "random09_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random09_prism.mp3",
+       "spec": "random09_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random09_prism_nompo.mp3",
+       "spec": "random09_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random09_sonicmaster.mp3",
+       "spec": "random09_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random09_audiosr.mp3",
+       "spec": "random09_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random09_clean.mp3",
+       "spec": "random09_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "random10",
+     "title": "Clip 10",
+     "instruction": "Can you suppress the mains electrical noise behind the music?",
+     "families": [
+      "recessed vocal",
+      "over-limiting",
+      "upper-range roll-off",
+      "stereo-width error",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random10_input.mp3",
+       "spec": "random10_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random10_prism.mp3",
+       "spec": "random10_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random10_prism_nompo.mp3",
+       "spec": "random10_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random10_sonicmaster.mp3",
+       "spec": "random10_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random10_audiosr.mp3",
+       "spec": "random10_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random10_clean.mp3",
+       "spec": "random10_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
     }
    ]
   },
@@ -1368,7 +4519,7 @@
     {
      "id": "identity01",
      "title": "Clip 1",
-     "instruction": "",
+     "instruction": "No correction needed on this one.",
      "families": [],
      "tracks": [
       {
@@ -1418,7 +4569,7 @@
     {
      "id": "identity02",
      "title": "Clip 2",
-     "instruction": "",
+     "instruction": "Keep this exactly as it is.",
      "families": [],
      "tracks": [
       {
@@ -1460,6 +4611,406 @@
        "label": "Clean reference",
        "src": "identity02_clean.mp3",
        "spec": "identity02_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "identity03",
+     "title": "Clip 3",
+     "instruction": "Leave this one alone, it is already where it should be.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity03_input.mp3",
+       "spec": "identity03_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity03_prism.mp3",
+       "spec": "identity03_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity03_prism_nompo.mp3",
+       "spec": "identity03_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity03_sonicmaster.mp3",
+       "spec": "identity03_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity03_audiosr.mp3",
+       "spec": "identity03_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity03_clean.mp3",
+       "spec": "identity03_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "identity04",
+     "title": "Clip 4",
+     "instruction": "No correction needed on this one.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity04_input.mp3",
+       "spec": "identity04_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity04_prism.mp3",
+       "spec": "identity04_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity04_prism_nompo.mp3",
+       "spec": "identity04_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity04_sonicmaster.mp3",
+       "spec": "identity04_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity04_audiosr.mp3",
+       "spec": "identity04_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity04_clean.mp3",
+       "spec": "identity04_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "identity05",
+     "title": "Clip 5",
+     "instruction": "No correction needed on this one.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity05_input.mp3",
+       "spec": "identity05_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity05_prism.mp3",
+       "spec": "identity05_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity05_prism_nompo.mp3",
+       "spec": "identity05_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity05_sonicmaster.mp3",
+       "spec": "identity05_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity05_audiosr.mp3",
+       "spec": "identity05_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity05_clean.mp3",
+       "spec": "identity05_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "identity06",
+     "title": "Clip 6",
+     "instruction": "Leave this one alone, it is already where it should be.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity06_input.mp3",
+       "spec": "identity06_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity06_prism.mp3",
+       "spec": "identity06_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity06_prism_nompo.mp3",
+       "spec": "identity06_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity06_sonicmaster.mp3",
+       "spec": "identity06_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity06_audiosr.mp3",
+       "spec": "identity06_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity06_clean.mp3",
+       "spec": "identity06_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "identity07",
+     "title": "Clip 7",
+     "instruction": "Keep this exactly as it is.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity07_input.mp3",
+       "spec": "identity07_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity07_prism.mp3",
+       "spec": "identity07_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity07_prism_nompo.mp3",
+       "spec": "identity07_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity07_sonicmaster.mp3",
+       "spec": "identity07_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity07_audiosr.mp3",
+       "spec": "identity07_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity07_clean.mp3",
+       "spec": "identity07_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "identity08",
+     "title": "Clip 8",
+     "instruction": "Keep this exactly as it is.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity08_input.mp3",
+       "spec": "identity08_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity08_prism.mp3",
+       "spec": "identity08_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity08_prism_nompo.mp3",
+       "spec": "identity08_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity08_sonicmaster.mp3",
+       "spec": "identity08_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity08_audiosr.mp3",
+       "spec": "identity08_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity08_clean.mp3",
+       "spec": "identity08_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "identity09",
+     "title": "Clip 9",
+     "instruction": "Leave this one alone, it is already where it should be.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity09_input.mp3",
+       "spec": "identity09_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity09_prism.mp3",
+       "spec": "identity09_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity09_prism_nompo.mp3",
+       "spec": "identity09_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity09_sonicmaster.mp3",
+       "spec": "identity09_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity09_audiosr.mp3",
+       "spec": "identity09_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity09_clean.mp3",
+       "spec": "identity09_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "identity10",
+     "title": "Clip 10",
+     "instruction": "No correction needed on this one.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity10_input.mp3",
+       "spec": "identity10_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity10_prism.mp3",
+       "spec": "identity10_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity10_prism_nompo.mp3",
+       "spec": "identity10_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity10_sonicmaster.mp3",
+       "spec": "identity10_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity10_audiosr.mp3",
+       "spec": "identity10_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity10_clean.mp3",
+       "spec": "identity10_clean.png",
        "ours": false,
        "ref": true
       }
