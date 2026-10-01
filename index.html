@@ -1,111 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Preference-Optimised Music Mastering under Degradation Chains</title>
+<meta name="referrer" content="no-referrer">
+<title>PRISM – audio examples</title>
 <style>
-  :root { --ink:#1b2466; --muted:#5a6078; --line:#dfe3ef; --bg:#fbfbfe; --accent:#2f6fd6; }
-  * { box-sizing: border-box; }
-  body { margin:0; background:var(--bg); color:#222; font:17px/1.6 Georgia, "Times New Roman", serif; }
-  main { max-width: 980px; margin: 0 auto; padding: 40px 20px 80px; }
-  h1 { color:var(--ink); font-size: 2rem; line-height:1.25; text-align:center; margin: 0 0 8px; }
-  .authors { text-align:center; color:var(--muted); margin-bottom: 6px; }
-  .venue { text-align:center; color:var(--muted); font-style:italic; margin-bottom: 28px; }
-  h2 { color:var(--ink); font-size:1.35rem; border-bottom:1px solid var(--line); padding-bottom:6px; margin-top:44px; }
-  h3 { color:var(--ink); font-size:1.05rem; margin: 26px 0 8px; }
-  .note { color:var(--muted); font-size:0.92rem; }
-  figure { margin: 20px 0; text-align:center; }
-  figure img { max-width:100%; border:1px solid var(--line); border-radius:6px; background:#fff; }
-  figcaption { color:var(--muted); font-size:0.9rem; margin-top:6px; }
-  .table-wrap { overflow-x:auto; }
-  table { border-collapse: collapse; width:100%; font-size:0.9rem; background:#fff; }
-  th, td { border:1px solid var(--line); padding:8px; text-align:center; vertical-align:middle; }
-  th { background:#eef2fb; color:var(--ink); font-weight:600; }
-  td.label { text-align:left; font-size:0.85rem; color:#333; min-width:150px; }
-  audio { width: 170px; height: 34px; }
-  footer { margin-top:60px; text-align:center; color:var(--muted); font-size:0.85rem; }
+:root{--bg:#f6f6f3;--panel:#ffffff;--ink:#15171c;--muted:#5b616d;--line:#e2e3e7;--accent:#2f5fd0;--accent-ink:#fff;--soft:#eef1f8;--ours:#e8efff}
+@media (prefers-color-scheme:dark){:root{--bg:#101215;--panel:#191c21;--ink:#eceef2;--muted:#9da3ae;--line:#2a2e36;--accent:#7aa2ff;--accent-ink:#0b0f17;--soft:#222731;--ours:#1f2a44}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{padding:36px 0 14px}
+h1{font-size:clamp(24px,3.4vw,32px);margin:0;letter-spacing:-.01em}
+.sub{font-size:clamp(15px,2vw,18px);color:var(--muted);margin:2px 0 12px}
+.lead{color:var(--muted);max-width:780px;margin:0}
+nav{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:10px 16px;scrollbar-width:thin}
+.tab{flex:none;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:7px 14px;font:inherit;font-size:14px;cursor:pointer;white-space:nowrap}
+.tab[aria-selected=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+main{padding:18px 0 40px}
+.blurb{color:var(--muted);margin:0 0 14px;max-width:820px}
+.clips{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px;align-items:center}
+.clips .lbl{font-size:13px;color:var(--muted);margin-right:4px}
+.clip{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:8px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
+.clip[aria-pressed=true]{background:var(--soft);border-color:var(--accent);font-weight:600}
+.stage{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;display:grid;gap:14px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline}
+.meta h2{margin:0;font-size:18px}
+.instr{margin:0;color:var(--muted);font-style:italic}
+.fam{display:flex;flex-wrap:wrap;gap:5px}
+.fam span{background:var(--soft);border-radius:6px;padding:2px 8px;font-size:12px;color:var(--muted)}
+.viz{position:relative;border-radius:10px;overflow:hidden;background:#000;aspect-ratio:1200/260;cursor:pointer}
+.viz img{display:block;width:100%;height:100%;object-fit:fill}
+.viz .head{position:absolute;top:0;bottom:0;width:2px;background:#fff;box-shadow:0 0 6px rgba(255,255,255,.8);left:0;pointer-events:none}
+.viz .tag{position:absolute;left:10px;top:8px;font-size:12px;color:#fff;background:rgba(0,0,0,.55);padding:2px 8px;border-radius:6px}
+.viz .axis{position:absolute;right:8px;font-size:11px;color:rgba(255,255,255,.75)}
+.transport{display:flex;align-items:center;gap:12px}
+.play{width:44px;height:44px;border-radius:50%;border:none;background:var(--accent);color:var(--accent-ink);font-size:16px;cursor:pointer;flex:none}
+.bar{flex:1;height:6px;border-radius:3px;background:var(--line);position:relative;cursor:pointer}
+.fill{position:absolute;inset:0 auto 0 0;width:0;border-radius:3px;background:var(--accent)}
+.time{font-variant-numeric:tabular-nums;font-size:13px;color:var(--muted);min-width:84px;text-align:right}
+.sys{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.sys button{display:flex;justify-content:space-between;align-items:center;gap:8px;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:10px;padding:9px 12px;font:inherit;font-size:14px;cursor:pointer;text-align:left}
+.sys button.ours{background:var(--ours)}
+.sys button[aria-pressed=true]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset;font-weight:600}
+.sys kbd,.help kbd{font:12px ui-monospace,monospace;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 5px}
+.help{font-size:12px;color:var(--muted);margin:0}
+.error{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;color:var(--muted)}
+footer{color:var(--muted);font-size:13px;padding:0 0 40px}
+[hidden]{display:none!important}
 </style>
 </head>
 <body>
-<main>
-
-<h1>Preference-Optimised Music Mastering<br>under Degradation Chains</h1>
-<div class="authors">Anonymous authors</div>
-<div class="venue">Supplementary material for a paper under double-blind review</div>
-
-<h2>Overview</h2>
-<figure>
-  <!-- Put the method figure at figures/overview.png -->
-  <img src="figures/overview.png" alt="Method overview: rectified-flow training and mastering preference optimisation">
-  <figcaption>Rectified-flow training on degradation chains, followed by one offline round of mastering preference optimisation.</figcaption>
-</figure>
-
-<h2>Audio examples</h2>
-<p class="note">All clips are 30&nbsp;s excerpts at 44.1&nbsp;kHz. Outputs are loudness-matched to their input (ITU-R BS.1770) so that differences are not due to level. Headphones are recommended.</p>
-
-<!-- HOW TO ADD EXAMPLES: put audio files in audio/ and copy a <tr> block.
-     Naming used below: audio/<set>_<id>_<system>.wav -->
-
-<h3>1. Synthetic degradation chains (held-out test)</h3>
-<div class="table-wrap">
-<table>
-  <tr><th>Chain</th><th>Degraded input</th><th>SonicMaster</th><th>PRISM (ours)</th><th>Reference master</th></tr>
-  <tr>
-    <td class="label">Phone at a gig<br><span class="note">noise → transducer → AGC → codec → band-limit</span></td>
-    <td><audio controls preload="none" src="audio/chain_01_input.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/chain_01_sonicmaster.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/chain_01_prism.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/chain_01_reference.wav"></audio></td>
-  </tr>
-  <tr>
-    <td class="label">Amateur master<br><span class="note">low-mid build-up → … → over-limiting → clipping</span></td>
-    <td><audio controls preload="none" src="audio/chain_02_input.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/chain_02_sonicmaster.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/chain_02_prism.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/chain_02_reference.wav"></audio></td>
-  </tr>
-</table>
+<header class="wrap">
+<h1>PRISM</h1>
+<p class="sub">Instruction-guided music restoration and mastering</p>
+<p class="lead">Each clip is played through every system. Switch versions while it plays: playback continues
+from the same moment, so differences are heard directly. The spectrogram shows the version that is playing.</p>
+</header>
+<nav><div class="tabs" role="tablist" id="tabs" style="max-width:1080px;margin:0 auto"></div></nav>
+<main class="wrap">
+<p class="error" id="error" hidden></p>
+<div id="page" hidden>
+<p class="blurb" id="blurb"></p>
+<div class="clips" id="clips"></div>
+<section class="stage" aria-live="polite">
+  <div class="meta"><h2 id="ctitle"></h2><p class="instr" id="instr"></p></div>
+  <div class="fam" id="fam"></div>
+  <div class="viz" id="viz" hidden><img id="spec" alt="Spectrogram of the version that is playing">
+    <span class="tag" id="vtag"></span><span class="axis" style="top:6px">22 kHz</span><span class="axis" style="bottom:4px">0 Hz</span><div class="head" id="head"></div></div>
+  <div class="transport"><button class="play" id="play" aria-label="Play">&#9654;</button>
+    <div class="bar" id="bar"><div class="fill" id="fill"></div></div><span class="time" id="time">0:00 / 0:00</span></div>
+  <div class="sys" id="sys" role="group" aria-label="Version"></div>
+  <p class="help" id="help"></p>
+</section>
 </div>
-
-<h3>2. Real low-production-quality releases (WILD, no reference)</h3>
-<div class="table-wrap">
-<table>
-  <tr><th>Track</th><th>Input</th><th>SonicMaster</th><th>PRISM w/o MPO</th><th>PRISM (ours)</th></tr>
-  <tr>
-    <td class="label">Example 1<br><span class="note">genre: rock</span></td>
-    <td><audio controls preload="none" src="audio/wild_01_input.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/wild_01_sonicmaster.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/wild_01_prism_nompo.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/wild_01_prism.wav"></audio></td>
-  </tr>
-  <tr>
-    <td class="label">Example 2<br><span class="note">genre: electronic</span></td>
-    <td><audio controls preload="none" src="audio/wild_02_input.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/wild_02_sonicmaster.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/wild_02_prism_nompo.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/wild_02_prism.wav"></audio></td>
-  </tr>
-</table>
-</div>
-
-<h3>3. Already-mastered input (pass-through)</h3>
-<p class="note">The correct behaviour is to leave the audio unchanged.</p>
-<div class="table-wrap">
-<table>
-  <tr><th>Track</th><th>Input (reference master)</th><th>SonicMaster</th><th>PRISM (ours)</th></tr>
-  <tr>
-    <td class="label">Example 1</td>
-    <td><audio controls preload="none" src="audio/pass_01_input.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/pass_01_sonicmaster.wav"></audio></td>
-    <td><audio controls preload="none" src="audio/pass_01_prism.wav"></audio></td>
-  </tr>
-</table>
-</div>
-
-<footer>Anonymous supplementary page. Code and models will be released upon publication.</footer>
-
 </main>
+<footer class="wrap" id="footer"></footer>
+<script>
+const DIR = 'audio/';
+const $ = id => document.getElementById(id);
+const audio = new Audio(); audio.preload = 'metadata';
+let groups = [], g = 0, c = 0, resume = null;
+const fmt = s => isFinite(s) ? `${Math.floor(s / 60)}:${String(Math.floor(s % 60)).padStart(2, '0')}` : '0:00';
+const tracks = () => groups[g].clips[c].tracks;
+
+function setVersion(k, keepTime) {
+  const t = tracks()[k]; if (!t) return;
+  if (!keepTime) resume = {pos: 0, playing: false};
+  else if (!resume) resume = {pos: audio.currentTime || 0, playing: !audio.paused};
+  [...$('sys').children].forEach((b, i) => b.setAttribute('aria-pressed', i === k));
+  $('vtag').textContent = t.label;
+  $('viz').hidden = !t.spec; if (t.spec) $('spec').src = DIR + t.spec;
+  audio.src = DIR + t.src; audio.load();
+}
+function setClip(k) {
+  const clips = groups[g].clips; c = (k + clips.length) % clips.length;
+  const clip = clips[c];
+  [...$('clips').querySelectorAll('.clip')].forEach((b, i) => b.setAttribute('aria-pressed', i === c));
+  $('ctitle').textContent = clip.title;
+  $('instr').textContent = clip.instruction ? `“${clip.instruction}”` : '';
+  $('fam').replaceChildren(...clip.families.map(f => Object.assign(document.createElement('span'), {textContent: f})));
+  $('sys').replaceChildren(...clip.tracks.map((t, i) => {
+    const b = document.createElement('button');
+    b.className = t.ours ? 'ours' : '';
+    b.append(Object.assign(document.createElement('span'), {textContent: t.label}),
+             Object.assign(document.createElement('kbd'), {textContent: i + 1}));
+    b.onclick = () => setVersion(i, true);
+    if (t.spec) new Image().src = DIR + t.spec;
+    return b;
+  }));
+  $('help').innerHTML = `Keys: <kbd>1</kbd>–<kbd>${clip.tracks.length}</kbd> switch version · <kbd>space</kbd> play/pause · ` +
+    `<kbd>&larr;</kbd><kbd>&rarr;</kbd> seek 5 s` + (clips.length > 1 ? ' · <kbd>[</kbd><kbd>]</kbd> previous/next clip' : '');
+  audio.pause(); setVersion(0, false);
+}
+function setGroup(k) {
+  g = k; const grp = groups[g];
+  [...$('tabs').children].forEach((b, i) => b.setAttribute('aria-selected', i === g));
+  $('blurb').textContent = grp.blurb;
+  $('clips').replaceChildren();
+  if (grp.clips.length > 1) {
+    $('clips').append(Object.assign(document.createElement('span'), {className: 'lbl', textContent: 'Clip'}));
+    grp.clips.forEach((clip, i) => {
+      const b = Object.assign(document.createElement('button'), {className: 'clip', textContent: i + 1, title: clip.title});
+      b.onclick = () => setClip(i); $('clips').append(b);
+    });
+  }
+  setClip(0);
+  history.replaceState(null, '', `#${grp.id}`);
+}
+function tick() {
+  const f = audio.duration ? audio.currentTime / audio.duration : 0;
+  $('fill').style.width = `${100 * f}%`; $('head').style.left = `calc(${100 * f}% - 1px)`;
+  $('time').textContent = `${fmt(audio.currentTime)} / ${fmt(audio.duration)}`;
+}
+audio.addEventListener('loadedmetadata', () => {
+  if (resume) {
+    audio.currentTime = Math.min(resume.pos, audio.duration || resume.pos);
+    if (resume.playing) audio.play().catch(() => {});
+    resume = null;
+  }
+  tick();
+});
+audio.addEventListener('timeupdate', tick);
+audio.addEventListener('play', () => { $('play').innerHTML = '&#10074;&#10074;'; $('play').setAttribute('aria-label', 'Pause'); });
+audio.addEventListener('pause', () => { $('play').innerHTML = '&#9654;'; $('play').setAttribute('aria-label', 'Play'); });
+const toggle = () => audio.paused ? audio.play().catch(() => {}) : audio.pause();
+const seekFrom = (el, e) => { const r = el.getBoundingClientRect(); if (audio.duration) audio.currentTime = audio.duration * Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)); };
+$('play').onclick = toggle;
+$('bar').onclick = e => seekFrom($('bar'), e);
+$('viz').onclick = e => seekFrom($('viz'), e);
+document.addEventListener('keydown', e => {
+  if (!groups.length || e.target.closest('input,textarea') || e.metaKey || e.ctrlKey || e.altKey) return;
+  if (e.key === ' ') { e.preventDefault(); toggle(); }
+  else if (/^[1-9]$/.test(e.key)) setVersion(+e.key - 1, true);
+  else if (e.key === 'ArrowRight') audio.currentTime = Math.min(audio.duration || 0, audio.currentTime + 5);
+  else if (e.key === 'ArrowLeft') audio.currentTime = Math.max(0, audio.currentTime - 5);
+  else if (e.key === ']') setClip(c + 1);
+  else if (e.key === '[') setClip(c - 1);
+});
+
+fetch(DIR + 'clips.json').then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(data => {
+  groups = data.groups;
+  $('footer').textContent = `All versions are loudness-normalised to ${String(data.lufs).replace('-', '−')} LUFS (peaks below −1 dBFS) so that level ` +
+    `does not bias the comparison. 30 s excerpts, 44.1 kHz stereo, streamed as MP3 at ${data.bitrate}bps.`;
+  groups.forEach((grp, i) => {
+    const b = Object.assign(document.createElement('button'), {className: 'tab', textContent: grp.label});
+    b.setAttribute('role', 'tab'); b.onclick = () => setGroup(i); $('tabs').append(b);
+  });
+  $('page').hidden = false;
+  const start = groups.findIndex(grp => `#${grp.id}` === location.hash);
+  setGroup(start >= 0 ? start : 0);
+}).catch(() => {
+  $('error').hidden = false;
+  $('error').textContent = 'Audio examples are not available yet.';
+});
+</script>
 </body>
 </html>
