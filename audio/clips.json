@@ -1,1 +1,1471 @@
-
+{
+ "lufs": "-20",
+ "bitrate": "256k",
+ "groups": [
+  {
+   "id": "real",
+   "label": "Real recordings",
+   "blurb": "Real low-quality recordings: the damage was not synthesised and no clean reference exists. Every system receives the same instruction.",
+   "clips": [
+    {
+     "id": "real01",
+     "title": "Recording 1",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real01_input.mp3",
+       "spec": "real01_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real01_prism.mp3",
+       "spec": "real01_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real01_prism_nompo.mp3",
+       "spec": "real01_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real01_sonicmaster.mp3",
+       "spec": "real01_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real01_audiosr.mp3",
+       "spec": "real01_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real02",
+     "title": "Recording 2",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real02_input.mp3",
+       "spec": "real02_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real02_prism.mp3",
+       "spec": "real02_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real02_prism_nompo.mp3",
+       "spec": "real02_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real02_sonicmaster.mp3",
+       "spec": "real02_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real02_audiosr.mp3",
+       "spec": "real02_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real03",
+     "title": "Recording 3",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real03_input.mp3",
+       "spec": "real03_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real03_prism.mp3",
+       "spec": "real03_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real03_prism_nompo.mp3",
+       "spec": "real03_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real03_sonicmaster.mp3",
+       "spec": "real03_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real03_audiosr.mp3",
+       "spec": "real03_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real04",
+     "title": "Recording 4",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real04_input.mp3",
+       "spec": "real04_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real04_prism.mp3",
+       "spec": "real04_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real04_prism_nompo.mp3",
+       "spec": "real04_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real04_sonicmaster.mp3",
+       "spec": "real04_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real04_audiosr.mp3",
+       "spec": "real04_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real05",
+     "title": "Recording 5",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real05_input.mp3",
+       "spec": "real05_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real05_prism.mp3",
+       "spec": "real05_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real05_prism_nompo.mp3",
+       "spec": "real05_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real05_sonicmaster.mp3",
+       "spec": "real05_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real05_audiosr.mp3",
+       "spec": "real05_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real06",
+     "title": "Recording 6",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real06_input.mp3",
+       "spec": "real06_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real06_prism.mp3",
+       "spec": "real06_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real06_prism_nompo.mp3",
+       "spec": "real06_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real06_sonicmaster.mp3",
+       "spec": "real06_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real06_audiosr.mp3",
+       "spec": "real06_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real07",
+     "title": "Recording 7",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real07_input.mp3",
+       "spec": "real07_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real07_prism.mp3",
+       "spec": "real07_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real07_prism_nompo.mp3",
+       "spec": "real07_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real07_sonicmaster.mp3",
+       "spec": "real07_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real07_audiosr.mp3",
+       "spec": "real07_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real08",
+     "title": "Recording 8",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real08_input.mp3",
+       "spec": "real08_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real08_prism.mp3",
+       "spec": "real08_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real08_prism_nompo.mp3",
+       "spec": "real08_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real08_sonicmaster.mp3",
+       "spec": "real08_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real08_audiosr.mp3",
+       "spec": "real08_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real09",
+     "title": "Recording 9",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real09_input.mp3",
+       "spec": "real09_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real09_prism.mp3",
+       "spec": "real09_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real09_prism_nompo.mp3",
+       "spec": "real09_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real09_sonicmaster.mp3",
+       "spec": "real09_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real09_audiosr.mp3",
+       "spec": "real09_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real10",
+     "title": "Recording 10",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real10_input.mp3",
+       "spec": "real10_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real10_prism.mp3",
+       "spec": "real10_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real10_prism_nompo.mp3",
+       "spec": "real10_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real10_sonicmaster.mp3",
+       "spec": "real10_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real10_audiosr.mp3",
+       "spec": "real10_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real11",
+     "title": "Recording 11",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real11_input.mp3",
+       "spec": "real11_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real11_prism.mp3",
+       "spec": "real11_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real11_prism_nompo.mp3",
+       "spec": "real11_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real11_sonicmaster.mp3",
+       "spec": "real11_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real11_audiosr.mp3",
+       "spec": "real11_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    },
+    {
+     "id": "real12",
+     "title": "Recording 12",
+     "instruction": "Remaster this track: clear the muddiness from the low mids, restore the missing high end, even out the level, and give it a clean, balanced, open sound.",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "real12_input.mp3",
+       "spec": "real12_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "real12_prism.mp3",
+       "spec": "real12_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "real12_prism_nompo.mp3",
+       "spec": "real12_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "real12_sonicmaster.mp3",
+       "spec": "real12_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "real12_audiosr.mp3",
+       "spec": "real12_audiosr.png",
+       "ours": false,
+       "ref": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phone_at_gig",
+   "label": "Phone at a gig",
+   "blurb": "A phone recording from the audience: crowd noise, a thin boxy microphone, automatic gain riding and a low-bitrate codec.",
+   "clips": [
+    {
+     "id": "phone_at_gig01",
+     "title": "Clip 1",
+     "instruction": "",
+     "families": [
+      "automatic gain control",
+      "band-limiting",
+      "lossy codec",
+      "transducer coloration",
+      "background noise"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig01_input.mp3",
+       "spec": "phone_at_gig01_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig01_prism.mp3",
+       "spec": "phone_at_gig01_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig01_prism_nompo.mp3",
+       "spec": "phone_at_gig01_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig01_sonicmaster.mp3",
+       "spec": "phone_at_gig01_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig01_audiosr.mp3",
+       "spec": "phone_at_gig01_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig01_clean.mp3",
+       "spec": "phone_at_gig01_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "phone_at_gig02",
+     "title": "Clip 2",
+     "instruction": "",
+     "families": [
+      "automatic gain control",
+      "band-limiting",
+      "lossy codec",
+      "transducer coloration",
+      "background noise"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "phone_at_gig02_input.mp3",
+       "spec": "phone_at_gig02_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "phone_at_gig02_prism.mp3",
+       "spec": "phone_at_gig02_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "phone_at_gig02_prism_nompo.mp3",
+       "spec": "phone_at_gig02_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "phone_at_gig02_sonicmaster.mp3",
+       "spec": "phone_at_gig02_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "phone_at_gig02_audiosr.mp3",
+       "spec": "phone_at_gig02_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "phone_at_gig02_clean.mp3",
+       "spec": "phone_at_gig02_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "laptop_room",
+   "label": "Laptop in a room",
+   "blurb": "A laptop recording from across a room: reverberation, a small microphone, gain riding and a codec.",
+   "clips": [
+    {
+     "id": "laptop_room01",
+     "title": "Clip 1",
+     "instruction": "",
+     "families": [
+      "automatic gain control",
+      "band-limiting",
+      "lossy codec",
+      "transducer coloration",
+      "room reverberation"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room01_input.mp3",
+       "spec": "laptop_room01_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room01_prism.mp3",
+       "spec": "laptop_room01_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room01_prism_nompo.mp3",
+       "spec": "laptop_room01_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room01_sonicmaster.mp3",
+       "spec": "laptop_room01_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room01_audiosr.mp3",
+       "spec": "laptop_room01_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room01_clean.mp3",
+       "spec": "laptop_room01_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "laptop_room02",
+     "title": "Clip 2",
+     "instruction": "",
+     "families": [
+      "automatic gain control",
+      "band-limiting",
+      "lossy codec",
+      "transducer coloration",
+      "room reverberation"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "laptop_room02_input.mp3",
+       "spec": "laptop_room02_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "laptop_room02_prism.mp3",
+       "spec": "laptop_room02_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "laptop_room02_prism_nompo.mp3",
+       "spec": "laptop_room02_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "laptop_room02_sonicmaster.mp3",
+       "spec": "laptop_room02_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "laptop_room02_audiosr.mp3",
+       "spec": "laptop_room02_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "laptop_room02_clean.mp3",
+       "spec": "laptop_room02_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "call_capture",
+   "label": "Call capture",
+   "blurb": "Audio captured from a voice or video call: band-limited, gain-ridden, with mains hum, a codec and dropouts.",
+   "clips": [
+    {
+     "id": "call_capture01",
+     "title": "Clip 1",
+     "instruction": "",
+     "families": [
+      "automatic gain control",
+      "band-limiting",
+      "lossy codec",
+      "transducer coloration",
+      "dropouts",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture01_input.mp3",
+       "spec": "call_capture01_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture01_prism.mp3",
+       "spec": "call_capture01_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture01_prism_nompo.mp3",
+       "spec": "call_capture01_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture01_sonicmaster.mp3",
+       "spec": "call_capture01_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture01_audiosr.mp3",
+       "spec": "call_capture01_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture01_clean.mp3",
+       "spec": "call_capture01_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "call_capture02",
+     "title": "Clip 2",
+     "instruction": "",
+     "families": [
+      "automatic gain control",
+      "band-limiting",
+      "lossy codec",
+      "transducer coloration",
+      "dropouts",
+      "mains hum"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "call_capture02_input.mp3",
+       "spec": "call_capture02_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "call_capture02_prism.mp3",
+       "spec": "call_capture02_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "call_capture02_prism_nompo.mp3",
+       "spec": "call_capture02_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "call_capture02_sonicmaster.mp3",
+       "spec": "call_capture02_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "call_capture02_audiosr.mp3",
+       "spec": "call_capture02_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "call_capture02_clean.mp3",
+       "spec": "call_capture02_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cassette_transfer",
+   "label": "Cassette transfer",
+   "blurb": "An old tape transferred to digital: wow and flutter, hiss, a lost top end and hum.",
+   "clips": [
+    {
+     "id": "cassette_transfer01",
+     "title": "Clip 1",
+     "instruction": "",
+     "families": [
+      "band-limiting",
+      "mains hum",
+      "background noise",
+      "wow & flutter"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer01_input.mp3",
+       "spec": "cassette_transfer01_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer01_prism.mp3",
+       "spec": "cassette_transfer01_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer01_prism_nompo.mp3",
+       "spec": "cassette_transfer01_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer01_sonicmaster.mp3",
+       "spec": "cassette_transfer01_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer01_audiosr.mp3",
+       "spec": "cassette_transfer01_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer01_clean.mp3",
+       "spec": "cassette_transfer01_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "cassette_transfer02",
+     "title": "Clip 2",
+     "instruction": "",
+     "families": [
+      "band-limiting",
+      "mains hum",
+      "background noise",
+      "wow & flutter"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "cassette_transfer02_input.mp3",
+       "spec": "cassette_transfer02_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "cassette_transfer02_prism.mp3",
+       "spec": "cassette_transfer02_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "cassette_transfer02_prism_nompo.mp3",
+       "spec": "cassette_transfer02_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "cassette_transfer02_sonicmaster.mp3",
+       "spec": "cassette_transfer02_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "cassette_transfer02_audiosr.mp3",
+       "spec": "cassette_transfer02_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "cassette_transfer02_clean.mp3",
+       "spec": "cassette_transfer02_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "internet_rip",
+   "label": "Internet rip",
+   "blurb": "A poor online copy: repeated codec passes, band-limiting, over-compression, limiting and clipping.",
+   "clips": [
+    {
+     "id": "internet_rip01",
+     "title": "Clip 1",
+     "instruction": "",
+     "families": [
+      "band-limiting",
+      "clipping",
+      "lossy codec",
+      "over-limiting",
+      "over-compression"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip01_input.mp3",
+       "spec": "internet_rip01_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip01_prism.mp3",
+       "spec": "internet_rip01_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip01_prism_nompo.mp3",
+       "spec": "internet_rip01_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip01_sonicmaster.mp3",
+       "spec": "internet_rip01_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip01_audiosr.mp3",
+       "spec": "internet_rip01_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip01_clean.mp3",
+       "spec": "internet_rip01_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "internet_rip02",
+     "title": "Clip 2",
+     "instruction": "",
+     "families": [
+      "band-limiting",
+      "clipping",
+      "lossy codec",
+      "over-limiting",
+      "over-compression"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "internet_rip02_input.mp3",
+       "spec": "internet_rip02_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "internet_rip02_prism.mp3",
+       "spec": "internet_rip02_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "internet_rip02_prism_nompo.mp3",
+       "spec": "internet_rip02_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "internet_rip02_sonicmaster.mp3",
+       "spec": "internet_rip02_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "internet_rip02_audiosr.mp3",
+       "spec": "internet_rip02_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "internet_rip02_clean.mp3",
+       "spec": "internet_rip02_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "amateur_master",
+   "label": "Amateur master",
+   "blurb": "A home master: muddy low mids, no air, flattened transients, squashed and clipped, narrow stereo.",
+   "clips": [
+    {
+     "id": "amateur_master01",
+     "title": "Clip 1",
+     "instruction": "",
+     "families": [
+      "loss of air",
+      "dull top end",
+      "clipping",
+      "over-limiting",
+      "low-mid build-up",
+      "over-compression",
+      "transient softening",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master01_input.mp3",
+       "spec": "amateur_master01_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master01_prism.mp3",
+       "spec": "amateur_master01_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master01_prism_nompo.mp3",
+       "spec": "amateur_master01_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master01_sonicmaster.mp3",
+       "spec": "amateur_master01_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master01_audiosr.mp3",
+       "spec": "amateur_master01_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master01_clean.mp3",
+       "spec": "amateur_master01_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "amateur_master02",
+     "title": "Clip 2",
+     "instruction": "",
+     "families": [
+      "loss of air",
+      "dull top end",
+      "clipping",
+      "over-limiting",
+      "low-mid build-up",
+      "over-compression",
+      "transient softening",
+      "stereo-width error"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "amateur_master02_input.mp3",
+       "spec": "amateur_master02_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "amateur_master02_prism.mp3",
+       "spec": "amateur_master02_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "amateur_master02_prism_nompo.mp3",
+       "spec": "amateur_master02_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "amateur_master02_sonicmaster.mp3",
+       "spec": "amateur_master02_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "amateur_master02_audiosr.mp3",
+       "spec": "amateur_master02_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "amateur_master02_clean.mp3",
+       "spec": "amateur_master02_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "random",
+   "label": "Random chain",
+   "blurb": "One to five degradations drawn at random from the 24 families, applied in signal order.",
+   "clips": [
+    {
+     "id": "random01",
+     "title": "Clip 1",
+     "instruction": "",
+     "families": [
+      "over-compression"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random01_input.mp3",
+       "spec": "random01_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random01_prism.mp3",
+       "spec": "random01_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random01_prism_nompo.mp3",
+       "spec": "random01_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random01_sonicmaster.mp3",
+       "spec": "random01_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random01_audiosr.mp3",
+       "spec": "random01_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random01_clean.mp3",
+       "spec": "random01_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "random02",
+     "title": "Clip 2",
+     "instruction": "",
+     "families": [
+      "upper-range roll-off",
+      "mains hum",
+      "over-limiting",
+      "stereo-width error",
+      "recessed vocal"
+     ],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "random02_input.mp3",
+       "spec": "random02_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "random02_prism.mp3",
+       "spec": "random02_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "random02_prism_nompo.mp3",
+       "spec": "random02_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "random02_sonicmaster.mp3",
+       "spec": "random02_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "random02_audiosr.mp3",
+       "spec": "random02_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "random02_clean.mp3",
+       "spec": "random02_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "identity",
+   "label": "Clean input",
+   "blurb": "Clean input with an instruction saying nothing needs fixing: a good model leaves it alone.",
+   "clips": [
+    {
+     "id": "identity01",
+     "title": "Clip 1",
+     "instruction": "",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity01_input.mp3",
+       "spec": "identity01_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity01_prism.mp3",
+       "spec": "identity01_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity01_prism_nompo.mp3",
+       "spec": "identity01_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity01_sonicmaster.mp3",
+       "spec": "identity01_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity01_audiosr.mp3",
+       "spec": "identity01_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity01_clean.mp3",
+       "spec": "identity01_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    },
+    {
+     "id": "identity02",
+     "title": "Clip 2",
+     "instruction": "",
+     "families": [],
+     "tracks": [
+      {
+       "label": "Input",
+       "src": "identity02_input.mp3",
+       "spec": "identity02_input.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "PRISM (ours)",
+       "src": "identity02_prism.mp3",
+       "spec": "identity02_prism.png",
+       "ours": true,
+       "ref": false
+      },
+      {
+       "label": "PRISM w/o MPO",
+       "src": "identity02_prism_nompo.mp3",
+       "spec": "identity02_prism_nompo.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "SonicMaster",
+       "src": "identity02_sonicmaster.mp3",
+       "spec": "identity02_sonicmaster.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "AudioSR",
+       "src": "identity02_audiosr.mp3",
+       "spec": "identity02_audiosr.png",
+       "ours": false,
+       "ref": false
+      },
+      {
+       "label": "Clean reference",
+       "src": "identity02_clean.mp3",
+       "spec": "identity02_clean.png",
+       "ours": false,
+       "ref": true
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
